@@ -41,3 +41,53 @@
 .completed {
   text-decoration: line-through;
 }
+
+button {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+  padding: 6px;
+}
+
+.todo h3 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.7rem;
+}
+
+input {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  padding: 5px;
+  width: 250px;
+  margin-bottom: 30px;
+  font-family: 'Raleway';
+}
+
+.todo {
+  margin-bottom: 20px;
+}
+
+.todo-list {
+  border: 1px solid lightslategray;
+  border-radius: 3px;
+  width: 400px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  border: 1px solid lightslategray;
+  border-radius: 3px;
+  width: 250px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  background-color: white;
+}

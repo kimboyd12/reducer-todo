@@ -2,9 +2,9 @@ import React from "react";
 
 export function Todo(props) {
     console.log(props);
-    
+
     return (
-        <div className="Todo">
+        <div className="todo">
             <h3 className={props.item.completed ? 'completed' : ''}
                 onClick={(e) => {
                     e.preventDefault();

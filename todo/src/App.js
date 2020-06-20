@@ -28,6 +28,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Todo List</h1>
       <TodoForm addTodo={addTodo} />
       <TodoList state={state} handleCompleted={handleCompleted} />
 
@@ -36,7 +37,7 @@ function App() {
           e.preventDefault();
           clearCompleted();
         }}>
-          Clear Completed Todos
+          Clear Completed
       </button>
     </div>
   );

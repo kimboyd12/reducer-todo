@@ -11,6 +11,7 @@ export function TodoForm(props) {
     }
 
     return (
+        <div className="form">
         <form onSubmit={submitHandler}>
             <input 
                 type="text"
@@ -20,6 +21,7 @@ export function TodoForm(props) {
             />
             <button type="submit">Add Todo</button>
         </form>
+        </div>
     )
 }
 
